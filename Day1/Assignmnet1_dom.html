@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignmnet</title>
+</head>
+<body>
+    <div id ="root"> 
+    <script type= "module">
+        const element = document.getElementById('root');
+        const h1 = document.createElement('h1');
+        h1.textContent = 'Todo';
+        element.append(h1);
+        const p = document.createElement('p');
+        p.textContent = 'Todo description here';
+        element.append(p);
+        const checkbox = document.createElement('input');
+        checkbox.setAttribute('type', 'checkbox');
+        //checkbox.type ='checkbox'
+        element.append(checkbox);
+        const label = document.createElement('label');
+        label.textContent = 'Done';
+        element.append(label);
+        
+    </script>
+    </div>
+    
+</body>
+</html>
